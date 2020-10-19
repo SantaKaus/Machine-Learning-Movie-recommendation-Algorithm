@@ -1,0 +1,6 @@
+# Machine-Learning-Movie-recommendation-Algorithm
+This program takes the movies you like, the ones you don't, and the ones you are curious about if you might like or not. It uses Machine Learning with the data obtained from The Movie Database through an API to understand what you like and don't like. The data it uses to predict is the overview, genre, and director of each movie you input. It vectorizes those different data points and makes predictions based on that. 
+
+It then predicts if you will like/probably like/probably not like/not like the movies you are curious about. As with all programs with Machine Learning, the more data (in our case, movies you like and don't) you can give the program, the better it will predict. As an added bonus, the program also predicts which top 20 rated movies on the entire database you will like. Please be careful to input a movie title as it is so that you get the movie you actually mean and the prgram doesn't throw an error. Happy Watching!
+
+As a bonus, after running the program on your preferred IDE, if you copy all the data in the tree.dot file and paste it at http://www.webgraphviz.com/ you can visually understand how the algorithm makes predictions. 
